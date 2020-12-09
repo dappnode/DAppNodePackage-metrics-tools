@@ -1,10 +1,10 @@
 version: "3.4"
 services:
   blackbox:
-    build: ./build_blackbox-exporter
+    build: ./build-blackbox-exporter
     image: "blackbox.metrics-tools.dnp.dappnode.eth:0.1.0"
     restart: unless-stopped
   json:
-    build: ./build_json-exporter
+    build: ./build-json-exporter
     image: "json.metrics-tools.dnp.dappnode.eth:0.1.0"
     restart: unless-stopped
