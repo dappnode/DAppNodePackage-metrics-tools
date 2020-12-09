@@ -1,0 +1,66 @@
+[
+    {
+        "labels": {
+            "__param_module": "icmp",
+            "__param_target": "8.8.8.8",
+            "__metrics_path__": "/probe",
+            "instance":"google",
+            "job": "metrics-tools..dnp.dappnode.eth",
+            "service": "blackbox.metrics-tools.dappnode"
+        },
+        "targets": [
+            "blackbox.metrics-tools.dappnode:9115" 
+        ]
+    },
+    {
+        "labels": {
+            "__param_module": "icmp",
+            "__param_target": "1.1.1.1",
+            "__metrics_path__": "/probe",
+            "instance":"cloudflare",
+            "job": "metrics-tools..dnp.dappnode.eth",
+            "service": "blackbox.metrics-tools.dappnode"
+        },
+        "targets": [
+            "blackbox.metrics-tools.dappnode:9115"
+        ]
+    },
+    {
+        "labels": {
+            "__param_module": "icmp",
+            "__param_target": "web3.dappnode.net",
+            "__metrics_path__": "/probe",
+            "instance":"remote",
+            "job": "metrics-tools..dnp.dappnode.eth",
+            "service": "blackbox.metrics-tools.dappnode"
+        },
+        "targets": [
+            "blackbox.metrics-tools.dappnode:9115"
+        ]
+    },
+    {
+        "labels": {
+            "__param_module": "icmp",
+            "__param_target": "ns.dappnode.io",
+            "__metrics_path__": "/probe",
+            "instance":"dyndns",
+            "job": "metrics-tools..dnp.dappnode.eth",
+            "service": "blackbox.metrics-tools.dappnode"
+        },
+        "targets": [
+            "blackbox.metrics-tools.dappnode:9115"
+        ]
+    },
+    {
+        "labels": {
+            "__param_target": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd",
+            "__metrics_path__": "/probe",
+            "instance":"coingecko",
+            "job": "metrics-tools..dnp.dappnode.eth",
+            "service": "json.metrics-tools.dappnode"
+        },
+        "targets": [
+            "json.metrics-tools.dappnode:7979"
+        ]
+    }
+]

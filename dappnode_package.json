@@ -1,0 +1,28 @@
+{
+  "name": "metrics-tools.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "shortDescription": "Latency and ETH price metrics",
+  "description": "Blackbox exporter + json exporter. The blackbox exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP and ICMP. This allows to add latency metrics to prometheus: 8.8.8.8 (Google), 1.1.1.1 (Cloudflare), web3.dappnode.net (remote) and ns.dappnode.io (dyndns)\n\nJson exporter it's a prometheus exporter which scrapes remote JSON by JSONPath. This adds ETH price to prometheus by using the coingecko API",
+  "type": "service",
+  "architectures": ["linux/amd64", "linux/arm64"],
+  "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
+  "contributors": [
+    "Eduardo Antuña <edu@dappnode.io> (https://github.com/eduadiez)"
+  ],
+  "categories": ["Monitoring"],
+  "links": {
+    "blackbox": "blackbox.metrics-tools.dappnode:9115",
+    "json": "json.metrics-tools.dappnode:7979"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappnode/DAppNodePackage-metrics-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-metrics-tools/issues"
+  },
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.39"
+  },
+  "license": "GLP-3.0"
+}

@@ -1,0 +1,10 @@
+version: "3.4"
+services:
+  blackbox:
+    build: ./build_blackbox-exporter
+    image: "blackbox.metrics-tools.dnp.dappnode.eth:0.1.0"
+    restart: always
+  json:
+    build: ./build_json-exporter
+    image: "json.metrics-tools.dnp.dappnode.eth:0.1.0"
+    restart: always
