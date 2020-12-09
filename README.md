@@ -1,4 +1,6 @@
-# DAppNode package metrics-tools (Blackbox exporter + json exporter)
+# DAppNode package metrics-tools 
+
+Blackbox exporter + json exporter
 
 ![avatar](blackbox-exporter-avatar.png)
 
