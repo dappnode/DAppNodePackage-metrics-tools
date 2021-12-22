@@ -1,4 +1,4 @@
-FROM quay.io/prometheuscommunity/json-exporter
+FROM quay.io/prometheuscommunity/json-exporter:v0.2.0
 
 WORKDIR /usr/src/app
 

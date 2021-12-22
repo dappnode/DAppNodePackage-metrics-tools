@@ -53,7 +53,7 @@
     },
     {
         "labels": {
-            "__param_target": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd",
+            "__param_target": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum,gnosis&vs_currencies=usd",
             "__metrics_path__": "/probe",
             "instance":"coingecko",
             "job": "metrics-tools..dnp.dappnode.eth",

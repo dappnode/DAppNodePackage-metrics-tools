@@ -1,4 +1,4 @@
-FROM prom/blackbox-exporter:master
+FROM prom/blackbox-exporter:v0.18.0
 
 WORKDIR /usr/src/app
 
